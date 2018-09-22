@@ -1,9 +1,10 @@
 .homehead{
-  padding-top: 10%;
+  padding-top: 5%;
 }
 .title{
   padding-top: 10%;
-  font-size: 1.0em;
+  font-size: 1.2em;
+  /* font-weight: bold; */
   padding-bottom: 10px;
 }
 .title_next{
@@ -11,14 +12,14 @@
 }
 
 .homemid{
-  padding-left: 10px;
+  padding-left: 20px;
   border:1px solid #000000;
-  margin-top: 20px;
+  margin-top: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .homemid_head{
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .homemid_btm{
 
@@ -34,6 +35,7 @@
   margin-top: 10px;
   background: #F7F7F7;
   box-shadow: 1px 1px #000000;
+  font-size: 0.8em;
 }
 .homebtm{
   padding-top: 20px;
@@ -66,6 +68,7 @@
   color: #B7387D;
 }
 .contact{
+  margin-top:10%;
   margin:10px;
   padding-left: 15px;
   background: #F7F7F7;
@@ -118,7 +121,12 @@ ul li{
   padding-bottom: 5px;
   border-left: 1px solid #000;
 }
-
+.text1{
+  /* padding-left: 10px; */
+  padding-right: 10px;
+  font-size: 0.9em;
+  padding-bottom: 5px;
+}
 /* about page */
 .abouthead{
   font-size: 1.0em;
@@ -142,4 +150,26 @@ ul li{
 .abouttext_mid{
   padding: 5px;
     font-size: 0.8em;
+}
+
+.gems{
+  padding: 10px;
+  background:#F7F7F7;
+}
+
+.gem{
+  margin: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.stones{
+  text-align: center;
+}
+.bttn1{
+  display: inline-block;
+  padding: 10px;
+  background: #DAFCE6;
+  box-shadow: 1px 1px #F7F7F7;
+  padding-right: 10px;
+  margin-right: 10px;
 }
