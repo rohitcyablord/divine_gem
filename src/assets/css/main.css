@@ -1,0 +1,145 @@
+.homehead{
+  padding-top: 10%;
+}
+.title{
+  padding-top: 10%;
+  font-size: 1.0em;
+  padding-bottom: 10px;
+}
+.title_next{
+  font-size: 0.8em;
+}
+
+.homemid{
+  padding-left: 10px;
+  border:1px solid #000000;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.homemid_head{
+  font-size: 1.5em;
+}
+.homemid_btm{
+
+}
+.homemid_btm a{
+  color: #7B7B7B;
+  font-size: 0.8em;
+}
+.bttn{
+  cursor: pointer;
+  text-align: center;
+  padding:10px;
+  margin-top: 10px;
+  background: #F7F7F7;
+  box-shadow: 1px 1px #000000;
+}
+.homebtm{
+  padding-top: 20px;
+}
+
+/* homepage */
+
+.home{
+  border:20px solid #B7387D;
+  padding: 10px;
+}
+.head{
+  padding-top: 20px;
+  font-size: 2.5em;
+  text-align:center;
+}
+.headnext{
+  font-size: 0.8em;
+  /* text-align: center; */
+}
+.sidenav_btm{
+  padding-top: 10px;
+  font-size: 0.6em;
+}
+.sidenav_btm a{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.active{
+  color: #B7387D;
+}
+.contact{
+  margin:10px;
+  padding-left: 15px;
+  background: #F7F7F7;
+  border:solid 1px #000000;
+}
+.contacthead{
+  padding-top: 10px;
+}
+.contact_text{
+    font-size: 0.8em;
+    padding-bottom: 5px;
+}
+.contact_info{
+  background: #F7F7F7;
+  margin-top: 20px;
+}
+ul{
+    list-style-type:none;
+}
+ul li{
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+
+/* articles page */
+.articles{
+  padding-top: 10%;
+}
+.articlehead{
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-bottom: 5px;
+}
+.subtext{
+  font-size: 0.7em;
+  padding-bottom: 5px;
+}
+.article_title{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.9em;
+  padding-bottom: 5px;
+  border-left: 1px solid #000;
+}
+.text{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.7em;
+  padding-bottom: 5px;
+  border-left: 1px solid #000;
+}
+
+/* about page */
+.abouthead{
+  font-size: 1.0em;
+  padding-top: 20px;
+}
+
+.abouttext{
+    font-size: 0.8em;
+}
+.aboutmid{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+.abouthead_mid{
+  font-size: 1.0em;
+  padding-top: 20px;
+  padding: 5px;
+}
+
+.abouttext_mid{
+  padding: 5px;
+    font-size: 0.8em;
+}
