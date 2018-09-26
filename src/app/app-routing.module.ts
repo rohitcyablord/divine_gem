@@ -7,6 +7,8 @@ import { ArticlesComponent } from './articles/articles.component';
 import { AboutComponent } from './about/about.component';
 import { GemstonesComponent } from './gemstones/gemstones.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component';
+import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch:'full' },
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path:'articles', component:ArticlesComponent},
   {path:'gemstones', component:GemstonesComponent},
   {path:'sidenav', component:SidenavComponent},
-  {path:'about',component:AboutComponent}
+  {path:'about',component:AboutComponent},
+  {path:'privacypolicy',component:PrivacypolicyComponent},
+  {path:'termsandconditions',component:TermsandconditionsComponent}
 
 ];
 

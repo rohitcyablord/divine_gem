@@ -1,54 +1,50 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-9 home">
-      <div class="row gems">
-        <div class="col-1"></div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="col-1 gem">
-          <img src="" style="height:100px;width:50px">
-          <span>Ruby</span>
-        </div>
-        <div class="row">
-          <div class="col-12 stones">
-            see more gems
-          </div>
+      <div class="row gems" >
+        <div class="col gem" *ngFor="let abc of gems">
+          <img src='{{abc.img}}'class="img-responsive" style="height:50px;width:50px">
+          <span style="font-size:0.5em;">{{abc.name}}</span>
         </div>
       </div>
+        <!-- <div class="col-1 gem">
+          <img src="" style="height:100px;width:50px">
+          <span>Ruby</span>
+        </div>
+        <div class="col-1 gem">
+          <img src="" style="height:100px;width:50px">
+          <span>Ruby</span>
+        </div>
+        <div class="col-1 gem">
+          <img src="" style="height:100px;width:50px">
+          <span>Ruby</span>
+        </div>
+        <div class="col-1 gem">
+          <img src="" style="height:100px;width:50px">
+          <span>Ruby</span>
+        </div>
+        <div class="col-1 gem">
+          <img src="" style="height:100px;width:50px">
+          <span>Ruby</span>
+        </div>
+        <div class="col-1 gem">
+          <img src="" style="height:100px;width:50px">
+          <span>Ruby</span>
+        </div>
+        <div class="col-1 gem">
+          <img src="" style="height:100px;width:50px">
+          <span>Ruby</span>
+        </div> -->
+        <div class="row gems">
+          <div class="col-12 stones">
+            <a>see more gems</a>
+          </div>
+        </div>
+
 
 
       <div class="row">
-        <div class="col-5"></div>
+        <div class="col-5"><img src="" class="img-responsive"></div>
         <div class="col-6">
           <div class="title">Name of Gem</div>
           <div class="text1">
@@ -59,11 +55,13 @@
           </div>
 
           <div class="row homemid">
-            <div class="title">Benifits</div>
-              <div class="col-4">
-                <hr style="border-top: 1px solid #B7387D;">
+            <div class="col-12">
+              <div class="row title">Benifits</div>
+              <div class="row" style="border-top: 1px solid #B7387D">
               </div>
-            <div class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat fermentum elit, ac pretium nunc mollis vitae. Fusce vehicula, magna eget aliquam egestas, nunc lectus tristique nisi, in condimentum quam neque et dolor.
+              <div class="row text1" style="padding-top: 10px;">
+                Lorem ipsum dolor sit amet, consectetur  adipiscing elit. Duis feugiat fermentum elit, ac pretium nunc mollis vitae. Fusce vehicula, magna eget aliquam egestas, nunc lectus tristique nisi, in condimentum quam neque et dolor.
+              </div>
             </div>
           </div>
           <div class="row homemid">

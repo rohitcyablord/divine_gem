@@ -19,9 +19,12 @@
         <div class="col-10 homemid">
         <div class="homemid_head">The Gems are Gems for Life</div>
         <div class="col-4"><hr style="border-top: 1px solid #B7387D;"></div>
-        <div class="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat fermentum elit, ac pretium nunc mollis vitae. Fusce vehicula, magna eget aliquam egestas, nunc lectus tristique nisi, in condimentum quam neque et dolor.
+        <div class="row">
+          <div class="col" *ngFor="let abc of gems">
+            <img src='{{abc.img}}'class="img-responsive" style="height:50px;width:50px">
+          </div>
         </div>
-        <div class="homemid_btm"><a>+read more</a></div>
+        <div class="homemid_btm"><a routerLink='/gemstones'>+read more</a></div>
         </div>
       </div>
       <div class="row homebtm">
@@ -40,7 +43,7 @@
               </div>
             </div>
           </div>
-      </div>
+        </div>
     </div>
     <div class="col-3">
       <app-sidenav></app-sidenav>

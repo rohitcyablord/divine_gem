@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Gem } from '../gems';
+import { GEM } from '../gemsDetails';
+import { DivineService } from '../_service/Divine';
 
 @Component({
   selector: 'app-home-page',
@@ -7,9 +11,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  constructor() { }
+  gems : Gem[] = GEM;
+  gemData :any;
+  proName: any;
 
-  ngOnInit() {
+  constructor(private _service: DivineService, private route: ActivatedRoute, private router: Router){
+
   }
 
+  ngOnInit() {
+    this.route.params
+    .subscribe((product) =>
+      this.proName = product.productID
+    );
+    console.log(this.proName);
+    // this.displayProdcutAsCate(this.catName);
+  }
 }
